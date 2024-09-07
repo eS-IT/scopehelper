@@ -1,0 +1,7 @@
+# Services
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    Esit\Scopehelper\Classes\Services\Helper\ScopeHelper: ~
