@@ -4,4 +4,5 @@ services:
         autowire: true
         autoconfigure: true
 
-    Esit\Scopehelper\Classes\Services\Helper\ScopeHelper: ~
+    Esit\Scopehelper\Classes\Services\Helper\ScopeHelper:
+        public: true
